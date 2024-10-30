@@ -1,0 +1,46 @@
+Next Greater Permutation
+
+
+Given an array, rearrange it to its next greater permutation. Do it in-place with extra constant memory only. Do not use any library function for the next permutation.
+
+Example
+Array: [1, 2, 3, 4]
+Next Greater Permutation: [1, 2, 4, 3]
+Next Greater Permutation: [1, 3, 2, 4]
+Next Greater Permutation: [1, 3, 4, 2]
+Next Greater Permutation: [1, 4, 2, 3]
+Next Greater Permutation: [1, 4, 3, 2]
+Next Greater Permutation: [2, 1, 3, 4]
+If the next greater permutation does not exist, return the lowest possible order (sorted in ascending order).
+
+Examples
+Array: [4, 3, 2, 1]
+Next Greater Permutation: [1, 2, 3, 4]
+Array: [2, 2, 9]
+Next Greater Permutation: [2, 9, 2]
+Next Greater Permutation: [9, 2, 2]
+Next Greater Permutation: [2, 2, 9]
+Array: [4]
+Next Greater Permutation: [4]
+Testing
+Input Format
+The first line contains 'T' denoting the no. of test cases.
+
+Next T lines each contain a number 'n' denoting the number of elements, followed by n space-separated numbers denoting the array elements.
+
+Output Format
+T lines each contain n numbers denoting the next greater permutation.
+
+Sample Input
+5
+3 1 3 2
+3 3 2 1
+3 2 2 9
+3 2 9 9
+1 4
+Expected Output
+2 1 3
+1 2 3
+2 9 2
+9 2 9
+4
